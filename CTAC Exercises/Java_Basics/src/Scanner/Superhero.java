@@ -27,7 +27,7 @@ public class Superhero {
     }
     //story method to print out
     public void story(){
-        System.out.println("There once was a superhero named" + this.getName() + ", who had the power of " + this.getPower() + ".");
+        System.out.println("There once was a superhero named " + this.getName() + ", who had the power of " + this.getPower() + ".");
         System.out.println("As they grew older, " + this.getName() + " saw that the world needed them.");
         System.out.println(this.getName() + " used their ability to " + this.getPower() + " to save the world.\n\n");
     }
